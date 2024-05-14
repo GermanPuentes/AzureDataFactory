@@ -1,0 +1,15 @@
+{
+	"name": "mifactoriadedatos",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "7a6a49ab-2ea6-46d0-a550-58b4454489a2",
+		"tenantId": "9f1166d6-3b33-4446-be16-2d5978cb8040",
+		"userAssignedIdentities": {
+			"/subscriptions/14d3ee0a-01b2-4c78-8b67-db9f621d21e6/resourcegroups/PruebaDeConcepto/providers/Microsoft.ManagedIdentity/userAssignedIdentities/azureconection-id-9269": {
+				"clientId": "be38a008-7c7b-43ab-96b4-25ee547fbba6",
+				"principalId": "80f97714-d96d-46b2-9a3e-c06572fbb679"
+			}
+		}
+	}
+}
