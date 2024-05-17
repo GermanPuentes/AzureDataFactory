@@ -275,7 +275,7 @@
 												"type": "DelimitedTextWriteSettings",
 												"quoteAllText": true,
 												"fileExtension": {
-													"value": "@pipeline().parameters.extension",
+													"value": "@concat('.',pipeline().parameters.extension)",
 													"type": "Expression"
 												}
 											}
