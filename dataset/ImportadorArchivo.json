@@ -1,0 +1,32 @@
+{
+	"name": "ImportadorArchivo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "data_270b98c4-c759-447d-aba7-8fd0f9ff15ba_a7ee301c-405b-4469-bd00-2ccb1ae9ab36.txt",
+				"container": "archivos"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "RegionID",
+				"type": "String"
+			},
+			{
+				"name": "RegionDescription",
+				"type": "String"
+			}
+		]
+	}
+}
