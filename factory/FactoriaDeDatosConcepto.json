@@ -1,0 +1,9 @@
+{
+	"name": "FactoriaDeDatosConcepto",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "de80d1cf-07d5-4cb2-be7d-f251a74d5c19",
+		"tenantId": "dd505be5-ec69-47f5-92df-caa55febf5fa"
+	}
+}
